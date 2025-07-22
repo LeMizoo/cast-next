@@ -1,0 +1,50 @@
+.bg-texture {
+  background-image: url('/images/paper-texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+:root {
+  --font-title: 'Montserrat', sans-serif;
+  --font-body: 'EB Garamond', serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+body, p {
+  font-family: var(--font-body);
+}
+:root {
+  --background: #fefef8; /* ivoire clair */
+  --foreground: #171717;
+  --font-title: 'Montserrat', sans-serif;
+  --font-body: 'EB Garamond', serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
