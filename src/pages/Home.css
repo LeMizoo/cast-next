@@ -1,0 +1,20 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-title {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 20px;
+  color: #666;
+}
