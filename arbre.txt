@@ -1,0 +1,29 @@
+Structure du dossier pour le volume DATA-IN
+Le num�ro de s�rie du volume est E009-FA9D
+D:.
+|   arbre.txt
+|   index.html
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   tailwind.config.js
+|   vite.config.js
+|   
+\---src
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |   MainRouter.jsx
+    |   
+    +---components
+    |       AnimatedSlide.jsx
+    |       HeroSection.jsx
+    |       NavBar.jsx
+    |       ProtectedRoute.jsx
+    |       Slideshow.jsx
+    |       
+    \---pages
+            Dashboard.jsx
+            Home.css
+            Home.jsx
+            

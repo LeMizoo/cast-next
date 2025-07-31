@@ -7,3 +7,16 @@ export default function HeroSection() {
     </section>
   );
 }
+// Exemple à ajouter dans HeroSection.jsx
+import { motion } from 'framer-motion';
+
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1.2 }}
+  className="text-center py-10"
+>
+  <p className="text-2xl italic font-light text-gray-600">
+    « La beauté est la lumière du cœur. »
+  </p>
+</motion.div>
