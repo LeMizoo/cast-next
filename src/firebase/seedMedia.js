@@ -1,6 +1,5 @@
-import { getFirestore, collection, addDoc } from 'firebase/firestore';
-
-const db = getFirestore();
+import { db } from './index';
+import { collection, addDoc } from 'firebase/firestore';
 
 const mediaItems = [
   {
@@ -30,15 +29,13 @@ const mediaItems = [
   }
 ];
 
-const seedMediaCollection = async () => {
+export const seedMediaCollection = async () => {
   const mediaRef = collection(db, 'media');
 
   for (const item of mediaItems) {
     await addDoc(mediaRef, item);
-    console.log(`Ajouté : ${item.title}`);
+    console.log(`✅ Ajouté : ${item.title}`);
   }
-};
 
-seedMediaCollection().then(() => {
   console.log('🎉 Tous les documents ont été ajoutés à Firestore');
-});
+};
