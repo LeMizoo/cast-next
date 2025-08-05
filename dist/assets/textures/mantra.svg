@@ -1,0 +1,146 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient radial pour le fond -->
+    <radialGradient id="backgroundGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2d1810;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0f0a;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Gradient cuivré/doré pour le texte principal -->
+    <linearGradient id="copperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f7931e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Gradient pour les éléments décoratifs -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Filtre de lueur -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Note musicale stylisée -->
+    <g id="musicNote">
+      <ellipse cx="0" cy="8" rx="6" ry="4" fill="url(#accentGradient)" opacity="0.7"/>
+      <rect x="5" y="-10" width="2" height="18" fill="url(#accentGradient)" opacity="0.7"/>
+      <path d="M7,-10 Q12,-8 12,-5 Q12,-2 7,0" fill="none" stroke="url(#accentGradient)" stroke-width="2" opacity="0.7"/>
+    </g>
+    
+    <!-- Motif traditionnel malgache -->
+    <g id="malgachePattern">
+      <path d="M0,0 L8,0 L6,6 L2,6 Z" fill="rgba(255,107,53,0.4)"/>
+      <path d="M0,0 L0,8 L6,6 L6,2 Z" fill="rgba(247,147,30,0.4)"/>
+    </g>
+  </defs>
+  
+  <!-- Fond -->
+  <rect width="800" height="600" fill="url(#backgroundGradient)"/>
+  
+  <!-- Cercles décoratifs -->
+  <circle cx="400" cy="300" r="290" fill="none" stroke="rgba(255,107,53,0.2)" stroke-width="3" opacity="0.6"/>
+  <circle cx="400" cy="300" r="260" fill="none" stroke="rgba(247,147,30,0.15)" stroke-width="2" opacity="0.8"/>
+  <circle cx="400" cy="300" r="230" fill="none" stroke="rgba(255,215,0,0.1)" stroke-width="1" opacity="0.9"/>
+  
+  <!-- Motifs traditionnels dans les coins -->
+  <use href="#malgachePattern" transform="translate(100,100) scale(2)" opacity="0.6"/>
+  <use href="#malgachePattern" transform="translate(680,100) scale(2) rotate(90)" opacity="0.6"/>
+  <use href="#malgachePattern" transform="translate(100,480) scale(2) rotate(-90)" opacity="0.6"/>
+  <use href="#malgachePattern" transform="translate(680,480) scale(2) rotate(180)" opacity="0.6"/>
+  
+  <!-- Notes musicales flottantes -->
+  <use href="#musicNote" transform="translate(150,200) scale(0.8)" opacity="0.5"/>
+  <use href="#musicNote" transform="translate(650,220) scale(1.2)" opacity="0.4"/>
+  <use href="#musicNote" transform="translate(120,380) scale(1)" opacity="0.6"/>
+  <use href="#musicNote" transform="translate(680,400) scale(0.9)" opacity="0.5"/>
+  
+  <!-- Titre principal -->
+  <g transform="translate(400,120)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="36" font-weight="bold" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      CHŒUR ARTISTIQUE
+    </text>
+  </g>
+  
+  <g transform="translate(400,165)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="36" font-weight="bold" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      &amp; SPIRITUEL DE TANÀ
+    </text>
+  </g>
+  
+  <!-- Ligne décorative -->
+  <line x1="200" y1="190" x2="600" y2="190" stroke="url(#accentGradient)" stroke-width="3" opacity="0.7"/>
+  
+  <!-- Mantra principal -->
+  <g transform="translate(400,240)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="28" font-weight="300" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      "Nos voix s'élèvent ensemble,"
+    </text>
+  </g>
+  
+  <g transform="translate(400,280)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="28" font-weight="300" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      portées par l'esprit et l'art,"
+    </text>
+  </g>
+  
+  <g transform="translate(400,320)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="28" font-weight="300" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      unies dans l'harmonie sacrée"
+    </text>
+  </g>
+  
+  <g transform="translate(400,360)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="28" font-weight="300" 
+          text-anchor="middle" fill="url(#copperGradient)" filter="url(#glow)">
+      de notre terre malgache."
+    </text>
+  </g>
+  
+  <!-- Ligne décorative du bas -->
+  <line x1="250" y1="400" x2="550" y2="400" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  <circle cx="240" cy="400" r="4" fill="rgba(255,107,53,0.7)"/>
+  <circle cx="560" cy="400" r="4" fill="rgba(255,215,0,0.7)"/>
+  
+  <!-- Message spirituel -->
+  <g transform="translate(400,440)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="20" font-style="italic" 
+          text-anchor="middle" fill="rgba(247,147,30,0.9)">
+      Que notre chant soit prière,
+    </text>
+  </g>
+  
+  <g transform="translate(400,470)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="20" font-style="italic" 
+          text-anchor="middle" fill="rgba(247,147,30,0.9)">
+      que notre art soit lumière
+    </text>
+  </g>
+  
+  <!-- Devise finale -->
+  <g transform="translate(400,520)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="16" font-weight="bold" 
+          text-anchor="middle" fill="rgba(255,215,0,0.8)">
+      ~ FIARA-MIVENTY HO AN'NY FANAHY ~
+    </text>
+  </g>
+  
+  <g transform="translate(400,545)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="14" 
+          text-anchor="middle" fill="rgba(255,107,53,0.7)">
+      (Unis pour l'âme)
+    </text>
+  </g>
+</svg>

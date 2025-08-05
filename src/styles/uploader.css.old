@@ -1,0 +1,27 @@
+.media-uploader {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.media-uploader input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.media-uploader button {
+  padding: 0.6rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

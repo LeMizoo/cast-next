@@ -1,0 +1,33 @@
+/* === MOTIFS SACRÉS === */
+.bg-mantra {
+  background-image: url('/assets/textures/mantra.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+}
+
+/* === OMBRES FLUIDES === */
+.shadow-spirit {
+  box-shadow: 0 4px 14px rgba(93, 126, 161, 0.2);
+}
+
+/* === TRANSPARENCE ÉTHÉRÉE === */
+.glass-card {
+  @apply bg-white/60 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-spirit;
+}
+/* === TEXTURES SACRÉES === */
+.bg-mantra {
+  background-image: url('/assets/textures/mantra.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+}
+
+/* === SHADOWS & GLASS EFFECT === */
+.shadow-spirit {
+  box-shadow: 0 4px 14px rgba(93, 126, 161, 0.2);
+}
+
+.glass-card {
+  @apply bg-white/60 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-spirit;
+}

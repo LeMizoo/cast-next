@@ -1,0 +1,105 @@
+Structure du dossier pour le volume DATA-IN
+Le numéro de série du volume est E009-FA9D
+D:.
+¦   arborescence.txt
+¦   ato.txt
+¦   logo-cast.png
+¦   Lucien-Em-Randrianarivelo.jpg
+¦   parchment-bg.png
+¦   structure.txt
+¦   
++---assets
+¦   ¦   logo.svg
+¦   ¦   
+¦   +---images
+¦   ¦   ¦   cathédrale majestueu.png
+¦   ¦   ¦   collaborations.png
+¦   ¦   ¦   concert1.jpg
+¦   ¦   ¦   diffusion.png
+¦   ¦   ¦   DSC09361.JPG
+¦   ¦   ¦   DSC09362.JPG
+¦   ¦   ¦   DSC09363.JPG
+¦   ¦   ¦   DSC09364.JPG
+¦   ¦   ¦   DSC09369.JPG
+¦   ¦   ¦   DSC09371.JPG
+¦   ¦   ¦   DSC09372.JPG
+¦   ¦   ¦   DSC09375.JPG
+¦   ¦   ¦   favicon.ico
+¦   ¦   ¦   galerie1.jpg
+¦   ¦   ¦   galerie2.jpg
+¦   ¦   ¦   galerie3.jpg
+¦   ¦   ¦   galerie4.jpg
+¦   ¦   ¦   galerie5.jpg
+¦   ¦   ¦   galerie6.jpg
+¦   ¦   ¦   galerie7.jpg
+¦   ¦   ¦   galerie8.jpg
+¦   ¦   ¦   IMG-20250620-WA0005.jpg
+¦   ¦   ¦   IMG-20250620-WA0006.jpg
+¦   ¦   ¦   IMG-20250620-WA0007.jpg
+¦   ¦   ¦   IMG-20250620-WA0008.jpg
+¦   ¦   ¦   IMG-20250620-WA0009.jpg
+¦   ¦   ¦   IMG-20250620-WA0010.jpg
+¦   ¦   ¦   inspiration.JPG
+¦   ¦   ¦   inspiration1.jpg
+¦   ¦   ¦   inspiration2.jpg
+¦   ¦   ¦   inspiration3.jpg
+¦   ¦   ¦   lieux.png
+¦   ¦   ¦   logo-cast.jpg
+¦   ¦   ¦   logo-cast.png
+¦   ¦   ¦   logo-O35E636P.png
+¦   ¦   ¦   logo.png
+¦   ¦   ¦   logocast.png
+¦   ¦   ¦   lucien-emmanuel-randrianarivelo.png
+¦   ¦   ¦   MOV09360.MPG
+¦   ¦   ¦   MOV09373.MPG
+¦   ¦   ¦   MOV09374.MPG
+¦   ¦   ¦   origines.png
+¦   ¦   ¦   P1010002.JPG
+¦   ¦   ¦   P1010003.JPG
+¦   ¦   ¦   P1010005.JPG
+¦   ¦   ¦   P3030350.JPG
+¦   ¦   ¦   P3030351.JPG
+¦   ¦   ¦   P3030352.JPG
+¦   ¦   ¦   P3030353.JPG
+¦   ¦   ¦   P3030354.JPG
+¦   ¦   ¦   P3030355.JPG
+¦   ¦   ¦   partition-bg.jpg
+¦   ¦   ¦   photo-choeur.jpeg
+¦   ¦   ¦   photoA.jpg
+¦   ¦   ¦   photoB.jpg
+¦   ¦   ¦   photoC.jpg
+¦   ¦   ¦   photoD.jpg
+¦   ¦   ¦   photoE.jpg
+¦   ¦   ¦   photoF.jpg
+¦   ¦   ¦   portrait.jpg
+¦   ¦   ¦   repertoire.png
+¦   ¦   ¦   repetition.jpg
+¦   ¦   ¦   slide1.jpg
+¦   ¦   ¦   slide2.jpg
+¦   ¦   ¦   slide3.jpg
+¦   ¦   ¦   slide4.jpg
+¦   ¦   ¦   slide5.jpg
+¦   ¦   ¦   slide6.jpg
+¦   ¦   ¦   tree.txt
+¦   ¦   ¦   [vos images ici]
+¦   ¦   ¦   
+¦   ¦   +---gallery
+¦   ¦           photo1.jpg
+¦   ¦           photo2.jpg
+¦   ¦           photo3.jpg
+¦   ¦           photo4.jpg
+¦   ¦           photo5.jpg
+¦   ¦           photo6.jpg
+¦   ¦           
+¦   +---slides
+¦   ¦       1.jpg
+¦   ¦       2.jpg
+¦   ¦       3.jpg
+¦   ¦       4.jpg
+¦   ¦       5.jpg
+¦   ¦       6.jpg
+¦   ¦       
+¦   +---textures
+¦           mantra.svg
+¦           
++---galerie

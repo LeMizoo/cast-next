@@ -1,0 +1,16 @@
+ Le volume dans le lecteur D s'appelle DATA-IN
+ Le num‚ro de s‚rie du volume est E009-FA9D
+
+ R‚pertoire de D:\MyProjects\cast-next\public
+
+05/08/2025  08:32    <DIR>          .
+05/08/2025  08:20    <DIR>          ..
+05/08/2025  08:31               214 arborescence.txt
+01/08/2025  15:18    <DIR>          assets
+05/08/2025  08:33                 0 ato.txt
+01/08/2025  15:25    <DIR>          galerie
+28/07/2025  09:05         1ÿ403ÿ212 logo-cast.png
+04/08/2025  10:22            82ÿ682 Lucien-Em-Randrianarivelo.jpg
+04/08/2025  10:29           495ÿ717 parchment-bg.png
+               5 fichier(s)        1ÿ981ÿ825 octets
+               4 R‚p(s)  45ÿ541ÿ285ÿ888 octets libres

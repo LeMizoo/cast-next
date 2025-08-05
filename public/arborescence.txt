@@ -1,0 +1,10 @@
+Trop de paramètres - 3
+Structure du dossier pour le volume DATA-IN
+Le numéro de série du volume est E009-FA9D
+D:.
++---assets
+¦   +---images
+¦   ¦   +---gallery
+¦   +---slides
+¦   +---textures
++---galerie

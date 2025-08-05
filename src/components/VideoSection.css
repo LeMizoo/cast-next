@@ -1,0 +1,30 @@
+.video-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #f9fafb, #e0e7ff);
+}
+
+.video-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #4f46e5;
+  margin-bottom: 2rem;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.video-wrapper video {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.video-description {
+  text-align: center;
+  font-size: 1rem;
+  color: #374151;
+  margin-top: 1rem;
+}

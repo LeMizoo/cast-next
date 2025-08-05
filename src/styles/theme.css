@@ -1,0 +1,33 @@
+:root {
+  --color-bg: #fefefe;
+  --color-text: #111827;
+  --color-accent: #4f46e5;
+  --radius: 0.75rem;
+}
+
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-text: #e5e7eb;
+  --color-accent: #6366f1;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+:root {
+  --color-bg: #fefefe;
+  --color-text: #111827;
+  --color-accent: #4f46e5;
+}
+
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-text: #e5e7eb;
+  --color-accent: #6366f1;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

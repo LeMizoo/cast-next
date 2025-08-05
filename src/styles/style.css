@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TYPOGRAPHIE SACRÉE */
+h1, h2 {
+  @apply font-choral text-4xl font-bold text-spirituel-dark tracking-tight;
+}
+
+p {
+  @apply text-lg text-gray-700 leading-relaxed font-playfair;
+}
+
+/* CONTAINER */
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+/* COMPOSANTS UI */
+.cast-card {
+  @apply bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition-transform duration-300 ease-in-out;
+}
+
+/* SECTION SPIRITUELLE */
+.section-sacrée {
+  @apply bg-gradient-to-br from-spirituel-light to-white shadow-inner rounded-lg p-8 border-l-4 border-spirituel-dark;
+}
+
+/* MENU ACTIVE LINK */
+.link-actif {
+  @apply font-semibold text-indigo-900 underline;
+}
+
+.link-nav {
+  @apply text-indigo-700 hover:text-indigo-900 transition duration-200;
+}
+
+/* ANIMATION */
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0;
+}

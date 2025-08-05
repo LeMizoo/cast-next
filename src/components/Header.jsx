@@ -14,7 +14,7 @@ const Header = () => {
       <nav className="space-x-6 text-gray-600 font-medium hidden md:block">
         <a href="/" className="hover:text-blue-600">Accueil</a>
         <a href="/about" className="hover:text-blue-600">À propos</a>
-        <a href="/gallery" className="hover:text-blue-600">Galerie</a>
+        <a href="/galerie" className="hover:text-blue-600">Galerie</a> {/* 🔄 lien corrigé */}
         <a href="/join" className="hover:text-blue-600">Rejoindre</a>
         <a href="/member" className="hover:text-blue-600">Espace membre</a>
       </nav>
