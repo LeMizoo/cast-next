@@ -1,36 +1,22 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
-import ResponsiveNavBar from "./ResponsiveNavBar";
-
-const Layout = () => {
-  return (
-    <div className="min-h-screen bg-white">
-      {/* Barre de navigation principale */}
-      <ResponsiveNavBar />
-
-      {/* Zone de contenu dynamique */}
-      <main className="px-6 py-10">
-        <Outlet />
-      </main>
-    </div>
-  );
-};
-
-export default Layout;// src/components/Layout.jsx
+// src/components/Layout.jsx
 import React from "react";
 import { Outlet } from "react-router-dom";
 import HarmoniNav from "./HarmoniNav";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white flex flex-col">
       {/* Barre de navigation spirituelle */}
       <HarmoniNav />
 
-      {/* Zone de contenu dynamique */}
-      <main className="px-6 py-10">
+      {/* Contenu principal */}
+      <main className="flex-grow px-6 py-10">
         <Outlet />
       </main>
+
+      {/* Pied de page inspiré */}
+      <Footer />
     </div>
   );
 };
